@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.16)  16 MAR 2016 19:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.16)  16 MAR 2016 19:18
 entering extended mode
 **assignment_2.tex
 (assignment_2.tex
@@ -146,17 +146,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-<graph.png, id=14, 412.54124pt x 251.43938pt>
-File: graph.png Graphic file (type png)
- <use graph.png>
-Package pdftex.def Info: graph.png used on input line 49.
+<graph.PNG, id=14, 412.54124pt x 251.43938pt>
+File: graph.PNG Graphic file (type png)
+ <use graph.PNG>
+Package pdftex.def Info: graph.PNG used on input line 49.
 (pdftex.def)             Requested size: 412.54024pt x 251.43875pt.
 
 Overfull \hbox (22.54024pt too wide) in paragraph at lines 49--50
 [][] 
  []
 
-[2] [3 <./graph.png>] (assignment_2.aux) ) 
+[2] [3 <./graph.PNG>] (assignment_2.aux) ) 
 Here is how much of TeX's memory you used:
  1130 strings out of 493698
  14612 string characters out of 3144383
@@ -164,7 +164,7 @@ Here is how much of TeX's memory you used:
  4497 multiletter control sequences out of 15000+200000
  7590 words of font info for 27 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,5n,19p,267b,204s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,5n,19p,267b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Assignment 2 - Laura Farny</title>
+
+		<meta name="description" content="Presentation for Assignment 2 Part B">
+		<meta name="author" content="Laura Farny">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="white">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Assignment 2</h1>
+					<h3>Numerical Simulation</h3>
+					<p>
+						<small>Created by <a href="https://github.com/laura1507">Laura Farny</a>
+					</p>
+				</section>
+
+				<section>
+					<h2>Abstract</h2>
+					<p>
+						This document shows a homework assignment for the seminar Economics and Psychology of Risk and Time.
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Exercise 1</h2>
+						<p>Calculate the certainty equivalent of the prospect (0.2,€40;0.6,€50;0.2,€30), under:</p>
+						<p>a) Expected utility theory with the utility function <em>u(x)=x/10</em> with total wealth=0.</p>
+						<p>b) Rank dependent utility with the utility function <em>u(x)=x/10</em> and <em>w(p)=p²</em> with total wealth=0.</p>
+					</section>
+					<section>
+						<h2>Answer Exercise 1a</h2>
+						<p>The expected value of the prospect is EV=0.2*40+0.6*50+0.2*30=44 and the utility given the formula <em>U(x)=\sum p*u</em> is 4.4.</p>
+						<p>The certainty equivalent (CE) is calculated by determining the value of x for which an individual is indifferent of receiving the prospect or a certain amount. In this case, since utility is given by <em>U(x)=x/10</em> the CE is calculated as follows:</p>
+						<p><em>U(x)= x/10 = 4.4</em></p>
+						<p><em>x = 4.4*10 = 44 = CE</em></p>
+						<br>
+					</section>
+					<section>
+						<h2>Answer Exercise 2</h2>
+						<p>The rank dependent utility calculated using <em>U(x)=\sum \pi*u</em> and <em>w(p)=p²</em> is as follows: 0.2²*4 + (0.8²-0.2²)*5 + (1-0.8²)*3 = 4.24.</p>
+						<p>Given that the utility is calculated as <em>u(x)=0.1*x</em>, so the amount for which an individual would be indifferent between the prospect or a certain amount would be CE=4.24/0.1=42.2
+						<br>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Exercise 2</h2>
+						<p>
+							Show a graph.
+						</p>
+					</section>
+					<section>
+						<div class="figure">
+							<img src="graph.PNG"/>
+							<p class="caption">Figure 1: Regression</p>
+						</div>
+					</section>
+				</section>
+				
+				<section>
+					<h2>THE END</h2>
+				</section>
+	
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
